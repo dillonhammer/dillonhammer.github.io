@@ -1,14 +1,54 @@
 * {
-	font-family: "JetBrains Mono";
+	font-family: "JetBrains Mono", "Source Sans Pro", sans-serif;
+	line-height: 48px;
+	font-size: 24px;
+	color: #ECEFF4;
+}
+
+:root {
+	background: #2E3440;
 }
 
 h1#name {
-	text-align: center;
 	padding: 50px;
+	text-align: center;
+	font-size: 84px;
 }
 
-p#intro {
+#body {
+	margin: auto;
+	width: 55%;
+}
+
+#intro {
+	text-align: left;
+}
+
+#links {
 	text-align: center;
-	padding: 100px;
-	font-size: 26px;
+}
+
+.link {
+	display: inline-block;
+	width: 20%;
+}
+
+a {
+	text-decoration: none;
+}
+
+#poweradvocate {
+	color: #88C0D0;
+}
+
+#linkedin {
+	color: #B48EAD;
+}
+
+#resume {
+	color: #EBCB8B
+}
+
+#github {
+	color: #BF616A
 }
