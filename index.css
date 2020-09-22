@@ -1,63 +1,68 @@
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url(JetBrainsMono-Regular.woff2);
+}
+
 * {
-	font-family: "JetBrains Mono", "Source Sans Pro", sans-serif;
-	line-height: 48px;
-	font-size: 22px;
-	color: #ECEFF4;
+  font-family: "JetBrains Mono", "Source Sans Pro", sans-serif;
+  line-height: 48px;
+  font-size: 22px;
+  color: #eceff4;
 }
 
 :root {
-	background: #2E3440;
+  background: #2e3440;
 }
 
 h1#name {
-	padding: 50px;
-	text-align: center;
-	font-size: 84px;
+  padding: 50px;
+  text-align: center;
+  font-size: 84px;
 }
 
 #body {
-	margin: auto;
-	width: 55%;
-	text-align: center;
+  margin: auto;
+  width: 55%;
+  text-align: center;
 }
 
 #intro {
-	text-align: center;
+  text-align: center;
 }
 
 #links {
-	text-align: center;
+  text-align: center;
 }
 
 .link {
-	display: inline-block;
-	width: 25%;
+  display: inline-block;
+  width: 25%;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 #poweradvocate {
-	color: #88C0D0;
+  color: #88c0d0;
 }
 
 #linkedin {
-	color: #B48EAD;
+  color: #b48ead;
 }
 
 #resume {
-	color: #EBCB8B;
+  color: #ebcb8b;
 }
 
 #github {
-	color: #BF616A;
+  color: #bf616a;
 }
 
 #email {
-	color: #88C0D0;
+  color: #88c0d0;
 }
 
 #break {
-	color: #88C0D0;
+  color: #88c0d0;
 }
